@@ -1,0 +1,237 @@
+body, html {
+	height: 100%;
+	width: 100%;
+	background-color: #232323;
+
+}
+
+/* embedded fonts */
+@font-face {
+	font-family: OSBold;
+	src:url(../fonts/OpenSans/OpenSans-Bold.ttf);
+}
+
+/* paragraph styles */
+.text {
+	font-family: OSBold;
+}
+
+@font-face {
+	font-family: OSLight;
+	src:url(../fonts/OpenSans/OpenSans-Light.ttf);
+}
+
+/* paragraph styles */
+.text {
+	font-family: OSLight;
+}
+
+
+
+/* THEY Animation */
+@-webkit-keyframes THEY {
+	0%, 100% { font-size: 0px }
+	50% { font-size: 150px; }
+	90% { font-size: 150px; }
+}
+
+#they {
+	position: relative;
+	text-align: center;
+	margin-top: 230px;
+	font-size: 0px;
+	color: white;
+	font-family: OSBold;
+
+	-webkit-animation: THEY 2s;
+
+}
+/* ARE Animation */
+@-webkit-keyframes ARE {
+	0%, 100% { font-size: 0px }
+	50% { font-size: 150px; }
+	90% { font-size: 150px; }
+}
+
+#are {
+	position: relative;
+	text-align: center;
+	font-size: 0px;
+	color: white;
+	font-family: OSBold;
+
+	-webkit-animation: ARE 2s;
+	-webkit-animation-delay: 3s;
+
+}
+
+/* BACK Animation */
+@-webkit-keyframes BACK {
+	0%, 100% { font-size: 0px }
+	50% { font-size: 150px; }
+	90% { font-size: 150px; }
+}
+
+#back {
+	position: relative;
+	text-align: center;
+	font-size: 0px;
+	color: white;
+	font-family: OSBold;
+
+	-webkit-animation: BACK 2s;
+	-webkit-animation-delay: 6s;
+
+}
+
+/* FOR Animation */
+@-webkit-keyframes FOR {
+	0%, 100% { font-size: 0px }
+	50% { font-size: 150px; }
+	90% { font-size: 150px; }
+}
+
+#for {
+	position: relative;
+	text-align: center;
+	font-size: 0px;
+	color: white;
+	font-family: OSBold;
+
+	-webkit-animation: FOR 2s;
+	-webkit-animation-delay: 9s;
+
+}
+
+/*ONE NIGHT ONLY */
+
+#line {
+	position: relative;
+	text-align: center;
+	font-size: 0px;
+	color: white;
+	font-family: OSBold;
+}
+
+
+@-webkit-keyframes one {
+	0% 100%{ font-size: 0px; }
+	10% { font-size: 90px; }
+	70% { font-size: 90px; }
+}
+
+#one {
+	position: relative;
+	text-align: center;
+	font-size: 0px;
+	color: white;
+	font-family: OSBold;
+	
+	-webkit-animation: one 4s;
+	-webkit-animation-delay: 12s;
+
+}
+
+@-webkit-keyframes night {
+	0% 100%{ font-size: 0px; }
+	10% { font-size: 90px; }
+	80% { font-size: 90px; }
+}
+
+#night {
+	position: relative;
+	text-align: center;
+	font-size: 0px;
+	color: white;
+	font-family: OSBold;
+	
+	-webkit-animation: night 3s ;
+	-webkit-animation-delay: 13s;
+
+}
+
+@-webkit-keyframes only {
+	0% 100% { font-size: 0px; }
+	10% { font-size: 90px; }
+	65% { font-size: 90px; }
+}
+
+#only {
+	position: relative;
+	text-align: center;
+	font-size: 0px;
+	color: white;
+	font-family: OSBold;
+	
+	-webkit-animation: only 2s;
+	-webkit-animation-delay: 14s;
+
+}
+
+/*EVENT INFO */
+
+@-webkit-keyframes event {
+	0% {opacity: 0%;}
+	100% {opacity: 100%;}
+
+}
+
+#EVENT {
+	position: relative;
+	color: white;
+	
+	-webkit-animation: event 2s;
+	-webkit-animation-delay: 18s;
+
+}
+
+#Jonas {
+
+	font-family: OSBold;
+	font-size: 170px;
+	margin-left: 30px;
+	margin-top: 300px;
+}
+
+#Brothers {
+	font-family: OSBold;
+	font-size: 100px;
+	margin-left: 105px;
+	margin-top: -240px;
+}
+
+#Reunion {
+	font-family: OSLight;
+	font-size: 50px;
+	margin-top: -100px;
+	margin-left: 60px;
+}
+
+#date {
+	font-family: OSBold;
+	font-size: 20px;
+	margin-left: 150px;
+	margin-top: -50px
+}
+
+#description {
+	font-family: OSLight;
+	font-size: 20px;
+	margin-left: 170px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
